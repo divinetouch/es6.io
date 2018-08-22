@@ -23,7 +23,15 @@ function addUpNumbers() {
 
 addUpNumbers(10,23,45,30)
 
+// Object
+const apple = {
+    color: 'red',
+    size: 'Medium',
+    weight: 50,
+    sugar: 10
+}
 
-
-
+for (let prop in apple) {
+    console.log(prop)
+}
 
